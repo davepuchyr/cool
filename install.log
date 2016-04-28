@@ -1321,3 +1321,8 @@
 1461875341 man-pages 3.53 5.el7 noarch
 1461875341 words 3.0 22.el7 noarch
 1461875342 iwl100-firmware 39.31.5.1 43.el7 noarch
+1461876068 gpg-pubkey f4a80eb5 53a7ff4b (none)
+1461876075 perl-Error 0.17020 2.el7 noarch
+1461876075 perl-TermReadKey 2.30 20.el7 x86_64
+1461876076 git 1.8.3.1 6.el7_2.1 x86_64
+1461876076 perl-Git 1.8.3.1 6.el7_2.1 noarch
