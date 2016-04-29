@@ -27,12 +27,10 @@
 1461874955 yelp-xsl 3.14.0 1.el7 noarch
 1461874960 adwaita-cursor-theme 3.14.1 1.el7 noarch
 1461874960 linux-firmware 20150904 43.git6ebf5d5.el7 noarch
-1461874960 seabios-bin 1.7.5 11.el7 noarch
 1461874962 appstream-data 7 6.el7 noarch
 1461874962 kbd-misc 1.15.5 11.el7 noarch
 1461874962 libwacom-data 0.12 1.el7 noarch
 1461874962 mobile-broadband-provider-info 1.20120614 4.el7 noarch
-1461874962 sgabios-bin 0.20110622svn 4.el7 noarch
 1461874962 vte-profile 0.38.3 2.el7 x86_64
 1461874963 libkkc-common 0.3.1 8.el7 noarch
 1461874963 ncurses-base 5.9 13.20130511.el7 noarch
@@ -184,7 +182,6 @@
 1461874991 libdvdnav 4.2.0 8.el7 x86_64
 1461874991 libiec61883 1.2.0 10.el7 x86_64
 1461874991 libshout 2.2.2 11.el7 x86_64
-1461874991 libvirt-gconfig 0.1.9 1.el7 x86_64
 1461874991 libwpg 0.3.0 1.el7 x86_64
 1461874991 lzop 1.03 10.el7 x86_64
 1461874991 openjpeg-libs 1.5.1 10.el7 x86_64
@@ -304,7 +301,6 @@
 1461875019 javapackages-tools 3.4.1 11.el7 noarch
 1461875019 libatasmart 0.19 6.el7 x86_64
 1461875019 libmbim 1.5.0 3.20130815git.el7 x86_64
-1461875019 mythes-en 3.0 13.el7 noarch
 1461875019 pam_krb5 2.4.8 4.el7 x86_64
 1461875019 python-javapackages 3.4.1 11.el7 noarch
 1461875019 python-pwquality 1.2.3 4.el7 x86_64
@@ -364,7 +360,6 @@
 1461875030 mailx 12.5 12.el7_0 x86_64
 1461875030 python-nss 0.16.0 3.el7 x86_64
 1461875030 sound-theme-freedesktop 0.8 3.el7 noarch
-1461875030 spice-server 0.12.4 15.el7 x86_64
 1461875031 libwvstreams 4.6.1 11.el7 x86_64
 1461875031 net-snmp-libs 5.7.2 24.el7 x86_64
 1461875031 nmap-ncat 6.40 7.el7 x86_64
@@ -539,7 +534,6 @@
 1461875064 gnome-video-effects 0.4.1 1.el7 noarch
 1461875064 libndp 1.2 4.el7 x86_64
 1461875064 libpipeline 1.2.3 3.el7 x86_64
-1461875064 netcf-libs 0.2.8 1.el7 x86_64
 1461875064 pakchois 0.4 10.el7 x86_64
 1461875064 qrencode-libs 3.4.1 3.el7 x86_64
 1461875064 ustr 1.0.4 16.el7 x86_64
@@ -626,8 +620,6 @@
 1461875092 abrt-addon-vmcore 2.1.11 36.el7.centos x86_64
 1461875093 libstoragemgmt 1.2.3 4.el7 x86_64
 1461875093 libstoragemgmt-python 1.2.3 4.el7 noarch
-1461875093 libvirt-glib 0.1.9 1.el7 x86_64
-1461875093 libvirt-gobject 0.1.9 1.el7 x86_64
 1461875094 abrt-addon-ccpp 2.1.11 36.el7.centos x86_64
 1461875094 abrt-cli 2.1.11 36.el7.centos x86_64
 1461875094 abrt-retrace-client 2.1.11 36.el7.centos x86_64
@@ -635,7 +627,6 @@
 1461875094 libcgroup-tools 0.41 8.el7 x86_64
 1461875094 libhbalinux 1.0.17 2.el7 x86_64
 1461875094 mesa-libxatracker 10.6.5 3.20150824.el7 x86_64
-1461875094 numad 0.5 14.20140620git.el7 x86_64
 1461875095 audit 2.4.1 5.el7 x86_64
 1461875095 autofs 5.0.7 54.el7 x86_64
 1461875095 cups-pk-helper 0.2.4 5.el7 x86_64
@@ -649,7 +640,6 @@
 1461875097 chrony 2.1.1 1.el7.centos x86_64
 1461875097 libibverbs 1.1.8 8.el7 x86_64
 1461875097 librdmacm 1.0.21 1.el7 x86_64
-1461875097 radvd 1.9.2 9.el7 x86_64
 1461875098 hypervkvpd 0 0.26.20150402git.el7 x86_64
 1461875098 hypervvssd 0 0.26.20150402git.el7 x86_64
 1461875098 net-tools 2.0 0.17.20131004git.el7 x86_64
@@ -726,7 +716,6 @@
 1461875124 libXxf86vm 1.1.3 2.1.el7 x86_64
 1461875124 mesa-libGL 10.6.5 3.20150824.el7 x86_64
 1461875124 pulseaudio 6.0 7.el7 x86_64
-1461875124 spice-glib 0.26 5.el7 x86_64
 1461875125 cairo 1.14.2 1.el7 x86_64
 1461875125 cairo-gobject 1.14.2 1.el7 x86_64
 1461875125 cairomm 1.10.0 8.el7 x86_64
@@ -876,7 +865,6 @@
 1461875188 gnome-bluetooth-libs 3.14.1 1.el7 x86_64
 1461875188 gnome-session 3.14.0 4.el7 x86_64
 1461875188 gtk-vnc2 0.5.2 7.el7 x86_64
-1461875188 spice-gtk3 0.26 5.el7 x86_64
 1461875189 abrt-gui 2.1.11 36.el7.centos x86_64
 1461875189 gnome-bluetooth 3.14.1 1.el7 x86_64
 1461875189 libchamplain-gtk 0.12.4 5.el7 x86_64
@@ -885,7 +873,6 @@
 1461875192 gnome-keyring 3.14.0 1.el7 x86_64
 1461875192 gnome-keyring-pam 3.14.0 1.el7 x86_64
 1461875192 NetworkManager-libreswan 1.0.6 3.el7 x86_64
-1461875192 python-meh-gui 0.25.2 1.el7 noarch
 1461875192 yelp-libs 3.14.2 1.el7 x86_64
 1461875193 gvfs-afc 1.22.4 6.el7 x86_64
 1461875193 gvfs-fuse 1.22.4 6.el7 x86_64
@@ -894,7 +881,6 @@
 1461875193 yelp 3.14.2 1.el7 x86_64
 1461875194 gnome-packagekit 3.14.3 5.el7 x86_64
 1461875194 metacity 2.34.13 7.el7 x86_64
-1461875195 glade-libs 3.15.0 5.el7 x86_64
 1461875195 keybinder3 0.3.0 1.el7 x86_64
 1461875195 libmx 1.4.7 10.el7 x86_64
 1461875196 file-roller 3.14.2 7.el7 x86_64
@@ -932,10 +918,7 @@
 1461875205 kbd 1.15.5 11.el7 x86_64
 1461875205 kbd-legacy 1.15.5 11.el7 noarch
 1461875205 sane-backends 1.0.24 9.el7 x86_64
-1461875207 gnome-boxes 3.14.3.1 7.el7 x86_64
 1461875207 initial-setup 0.3.9.30 1.el7.centos x86_64
-1461875207 seavgabios-bin 1.7.5 11.el7 noarch
-1461875208 initial-setup-gui 0.3.9.30 1.el7.centos x86_64
 1461875208 libsane-hpaio 3.13.7 6.el7 x86_64
 1461875208 pm-utils 1.4.1 27.el7 x86_64
 1461875208 sane-backends-drivers-scanners 1.0.24 9.el7 x86_64
@@ -953,7 +936,6 @@
 1461875213 totem-nautilus 3.14.3 5.el7 x86_64
 1461875214 gnome-software 3.14.7 2.el7 x86_64
 1461875214 gnome-system-monitor 3.14.1 3.el7 x86_64
-1461875215 vinagre 3.14.3 1.el7 x86_64
 1461875217 gnome-initial-setup 3.14.4 5.el7 x86_64
 1461875217 orca 3.6.3 4.el7 x86_64
 1461875218 firstboot 19.9 10.el7 x86_64
@@ -1007,7 +989,6 @@
 1461875234 icedtea-web 1.6.1 4.el7 x86_64
 1461875234 open-vm-tools-desktop 9.10.2 4.el7 x86_64
 1461875234 system-config-printer-udev 1.4.1 19.el7 x86_64
-1461875234 unoconv 0.6 7.el7 noarch
 1461875244 alsa-plugins-pulseaudio 1.0.27 3.el7 x86_64
 1461875244 gtk2-immodule-xim 2.24.28 8.el7 x86_64
 1461875244 gutenprint-cups 5.2.9 18.el7 x86_64
@@ -1032,7 +1013,6 @@
 1461875252 psacct 6.6.1 9.el7 x86_64
 1461875252 python-smbc 1.0.13 7.el7 x86_64
 1461875252 usbutils 007 5.el7 x86_64
-1461875253 postfix 2.10.1 6.el7 x86_64
 1461875254 aic94xx-firmware 30 6.el7 noarch
 1461875254 at 3.1.13 20.el7 x86_64
 1461875254 biosdevname 0.6.2 1.el7 x86_64
@@ -1048,7 +1028,6 @@
 1461875283 libproxy-mozjs 0.4.11 8.el7 x86_64
 1461875283 libreport-plugin-mailx 2.1.11 32.el7.centos x86_64
 1461875283 man-db 2.6.3 9.el7 x86_64
-1461875283 systemtap-runtime 2.8 10.el7 x86_64
 1461875283 yum-langpacks 0.4.2 4.el7 noarch
 1461875284 enscript 1.6.6 6.el7 x86_64
 1461875284 ledmon 0.79 4.el7 x86_64
@@ -1140,7 +1119,6 @@
 1461876076 perl-Git 1.8.3.1 6.el7_2.1 noarch
 1461876354 autocorr-en 4.3.7.2 5.el7_2.1 noarch
 1461876354 bind-license 9.9.4 29.el7_2.3 noarch
-1461876354 ipxe-roms-qemu 20130517 8.gitc4bce43.el7_2.1 noarch
 1461876354 libreoffice-opensymbol-fonts 4.3.7.2 5.el7_2.1 noarch
 1461876354 python-sssdconfig 1.13.0 40.el7_2.2 noarch
 1461876354 quota-nls 4.01 11.el7_2.1 noarch
@@ -1197,13 +1175,11 @@
 1461876378 avahi-glib 0.6.31 15.el7_2.1 x86_64
 1461876378 cyrus-sasl-gssapi 2.1.26 20.el7_2 x86_64
 1461876378 dracut 033 360.el7_2 x86_64
-1461876378 glusterfs-api 3.7.1 16.0.1.el7.centos x86_64
 1461876378 glusterfs-client-xlators 3.7.1 16.0.1.el7.centos x86_64
 1461876378 initscripts 9.49.30 1.el7_2.2 x86_64
 1461876378 libssh2 1.4.3 10.el7_2.1 x86_64
 1461876378 libxml2-python 2.9.1 6.el7_2.2 x86_64
 1461876378 procps-ng 3.3.10 5.el7_2 x86_64
-1461876378 qemu-img 1.5.3 105.el7_2.3 x86_64
 1461876379 createrepo 0.9.9 25.el7_2 noarch
 1461876379 cyrus-sasl 2.1.26 20.el7_2 x86_64
 1461876379 dracut-network 033 360.el7_2 x86_64
@@ -1221,29 +1197,15 @@
 1461876387 device-mapper-multipath-libs 0.4.9 85.el7_2.1 x86_64
 1461876388 cronie 1.4.11 14.el7_2.1 x86_64
 1461876388 cronie-anacron 1.4.11 14.el7_2.1 x86_64
-1461876388 gnutls-dane 3.3.8 14.el7_2 x86_64
 1461876388 grub2-tools 2.02 0.34.el7.centos x86_64
 1461876388 ntp 4.2.6p5 22.el7.centos.1 x86_64
 1461876388 ntpdate 4.2.6p5 22.el7.centos.1 x86_64
-1461876388 qemu-kvm 1.5.3 105.el7_2.3 x86_64
-1461876388 qemu-kvm-common 1.5.3 105.el7_2.3 x86_64
-1461876389 gnutls-utils 3.3.8 14.el7_2 x86_64
 1461876389 selinux-policy 3.13.1 60.el7_2.3 noarch
 1461876402 bind-libs 9.9.4 29.el7_2.3 x86_64
 1461876402 bind-utils 9.9.4 29.el7_2.3 x86_64
 1461876402 cyrus-sasl-md5 2.1.26 20.el7_2 x86_64
 1461876402 krb5-workstation 1.13.2 12.el7_2 x86_64
-1461876403 libvirt-client 1.2.17 13.el7_2.4 x86_64
-1461876403 libvirt-daemon 1.2.17 13.el7_2.4 x86_64
-1461876403 libvirt-daemon-driver-network 1.2.17 13.el7_2.4 x86_64
-1461876403 libvirt-daemon-driver-qemu 1.2.17 13.el7_2.4 x86_64
-1461876404 anaconda-widgets 21.48.22.56 5.el7.centos.1 x86_64
 1461876404 avahi-autoipd 0.6.31 15.el7_2.1 x86_64
-1461876404 libvirt-daemon-driver-interface 1.2.17 13.el7_2.4 x86_64
-1461876404 libvirt-daemon-driver-nodedev 1.2.17 13.el7_2.4 x86_64
-1461876404 libvirt-daemon-driver-nwfilter 1.2.17 13.el7_2.4 x86_64
-1461876404 libvirt-daemon-driver-secret 1.2.17 13.el7_2.4 x86_64
-1461876404 libvirt-daemon-driver-storage 1.2.17 13.el7_2.4 x86_64
 1461876404 NetworkManager 1.0.6 29.el7_2 x86_64
 1461876404 NetworkManager-wifi 1.0.6 29.el7_2 x86_64
 1461876404 NetworkManager-wwan 1.0.6 29.el7_2 x86_64
@@ -1258,10 +1220,6 @@
 1461876406 bluez-libs 5.23 4.el7 x86_64
 1461876406 graphite2 1.3.6 1.el7_2 x86_64
 1461876406 python-pyudev 0.15 7.el7_2.1 noarch
-1461876420 libreoffice-core 4.3.7.2 5.el7_2.1 x86_64
-1461876420 libreoffice-draw 4.3.7.2 5.el7_2.1 x86_64
-1461876420 libreoffice-graphicfilter 4.3.7.2 5.el7_2.1 x86_64
-1461876420 libreoffice-pdfimport 4.3.7.2 5.el7_2.1 x86_64
 1461876420 python-perf 3.10.0 327.13.1.el7 x86_64
 1461876420 python-sss-murmur 1.13.0 40.el7_2.2 x86_64
 1461876421 anaconda-tui 21.48.22.56 5.el7.centos.1 x86_64
@@ -1273,7 +1231,6 @@
 1461876422 libsss_nss_idmap 1.13.0 40.el7_2.2 x86_64
 1461876422 sssd-client 1.13.0 40.el7_2.2 x86_64
 1461876422 sssd-common 1.13.0 40.el7_2.2 x86_64
-1461876423 anaconda-gui 21.48.22.56 5.el7.centos.1 x86_64
 1461876423 ipa-client 4.2.0 15.0.1.el7.centos.6.1 x86_64
 1461876423 kernel-tools 3.10.0 327.13.1.el7 x86_64
 1461876423 kernel-tools-libs 3.10.0 327.13.1.el7 x86_64
@@ -1285,14 +1242,7 @@
 1461876423 sssd-krb5-common 1.13.0 40.el7_2.2 x86_64
 1461876423 sssd-ldap 1.13.0 40.el7_2.2 x86_64
 1461876423 sssd-proxy 1.13.0 40.el7_2.2 x86_64
-1461876424 libreoffice-impress 4.3.7.2 5.el7_2.1 x86_64
-1461876424 libreoffice-langpack-en 4.3.7.2 5.el7_2.1 x86_64
 1461876424 tuned 2.5.1 4.el7_2.3 noarch
-1461876425 libreoffice-calc 4.3.7.2 5.el7_2.1 x86_64
-1461876426 libreoffice-pyuno 4.3.7.2 5.el7_2.1 x86_64
-1461876426 libreoffice-writer 4.3.7.2 5.el7_2.1 x86_64
-1461876427 libvirt-daemon-config-network 1.2.17 13.el7_2.4 x86_64
-1461876427 libvirt-daemon-kvm 1.2.17 13.el7_2.4 x86_64
 1461876427 NetworkManager-adsl 1.0.6 29.el7_2 x86_64
 1461876427 NetworkManager-bluetooth 1.0.6 29.el7_2 x86_64
 1461876427 NetworkManager-tui 1.0.6 29.el7_2 x86_64
@@ -1322,7 +1272,6 @@
 1461876461 libgovirt 0.3.3 1.el7_2.1 x86_64
 1461876461 libunwind 1.1 5.el7_2.2 x86_64
 1461876461 logrotate 3.8.6 7.el7_2 x86_64
-1461876461 mariadb-libs 5.5.47 1.el7_2 x86_64
 1461876461 openssl 1.0.1e 51.el7_2.4 x86_64
 1461876461 systemd-python 219 19.el7_2.7 x86_64
 1461876462 crash 7.1.2 3.el7_2 x86_64
