@@ -1403,3 +1403,11 @@
 1461898053 system-config-date-docs 1.0.11 4.el7 noarch
 1461898054 system-config-users 1.3.5 2.el7 noarch
 1461898054 system-config-users-docs 1.0.9 6.el7 noarch
+1461898624 percona-release 0.1 3 noarch
+1461898659 gpg-pubkey cd2efd2a 4b26dda1 (none)
+1461898679 Percona-Server-shared-compat-57 5.7.11 4.1.el7 x86_64
+1461898680 Percona-Server-shared-57 5.7.11 4.1.el7 x86_64
+1461898681 Percona-Server-client-57 5.7.11 4.1.el7 x86_64
+1461898689 Percona-Server-devel-57 5.7.11 4.1.el7 x86_64
+1461898689 Percona-Server-server-57 5.7.11 4.1.el7 x86_64
+1461898768 epel-release 7 5 noarch
