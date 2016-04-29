@@ -44,3 +44,5 @@ tcpdump:x:72:72::/:/sbin/nologin
 admin:x:1000:1000:admin:/home/admin:/bin/bash
 nx:x:987:1001::/var/NX/nx:/etc/NX/nxserver
 mailnull:x:47:47::/var/spool/mqueue:/sbin/nologin
+smmsp:x:51:51::/var/spool/mqueue:/sbin/nologin
+dave:x:500:500:Dave Puchyr:/home/dave:/bin/bash
