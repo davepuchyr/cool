@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<zone target="ACCEPT">
+  <short>Trusted</short>
+  <description>All network connections are accepted.</description>
+  <source address="76.182.226.145/32"/>
+  <service name="vnc-server"/>
+  <service name="mysql"/>
+  <port protocol="tcp" port="19150"/>
+</zone>
