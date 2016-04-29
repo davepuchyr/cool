@@ -7,5 +7,4 @@
   <service name="ssh"/>
   <port protocol="tcp" port="4000"/>
   <port protocol="udp" port="4000"/>
-  <port protocol="tcp" port="2222"/>
 </zone>
