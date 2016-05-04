@@ -123,8 +123,9 @@ X11Forwarding yes
 UsePrivilegeSeparation sandbox		# Default for new installations.
 #PermitUserEnvironment no
 #Compression delayed
-#ClientAliveInterval 0
-#ClientAliveCountMax 3
+# dmjp: http://unix.stackexchange.com/a/200256
+ClientAliveInterval 60
+ClientAliveCountMax 3
 #ShowPatchLevel no
 #UseDNS yes
 #PidFile /var/run/sshd.pid

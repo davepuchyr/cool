@@ -75,3 +75,4 @@ smmsp:x:51:
 dave:x:500:
 mysql:x:27:
 gkrellmd:x:499:
+polipo:x:498:
