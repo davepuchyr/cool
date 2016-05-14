@@ -76,3 +76,4 @@ dave:x:500:
 mysql:x:27:dave,admin
 gkrellmd:x:499:
 polipo:x:498:
+apache:x:48:
