@@ -13,4 +13,5 @@ cups/subscriptions.conf*
 mail/sendmail.cf.bak
 mail/client-info*
 ntp.conf
+selinux/targeted/modules/tmp
 
