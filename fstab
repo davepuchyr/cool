@@ -10,3 +10,5 @@
 UUID=ada018aa-3776-46d8-b20d-fae1ec00b91f /boot                   xfs     defaults        0 0
 /dev/mapper/centos-home /home                   xfs     defaults        0 0
 /dev/mapper/centos-swap swap                    swap    defaults        0 0
+
+192.188.183.76:/backup	/backup			nfs	rsize=8192,wsize=8192,timeo=14,intr,tcp
