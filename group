@@ -78,3 +78,5 @@ gkrellmd:x:499:
 polipo:x:498:
 apache:x:48:
 bacula:x:133:
+dovecot:x:97:
+dovenull:x:497:
