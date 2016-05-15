@@ -1469,7 +1469,6 @@
 1462067256 perl-DBD-MySQL 4.023 5.el7 x86_64
 1462382629 polipo 1.1.1 2.el7 x86_64
 1462992155 libev 4.15 6.el7 x86_64
-1462992156 percona-xtrabackup 2.3.4 1.el7 x86_64
 1463103833 openssl-libs 1.0.1e 51.el7_2.5 x86_64
 1463103834 openssl 1.0.1e 51.el7_2.5 x86_64
 1463103834 openssl-devel 1.0.1e 51.el7_2.5 x86_64
@@ -1529,3 +1528,17 @@
 1463244342 gnome-terminal 3.14.3 3.el7_2.1 x86_64
 1463244342 python-perf 3.10.0 327.18.2.el7 x86_64
 1463244349 kernel 3.10.0 327.18.2.el7 x86_64
+1463261442 bacula-libs 5.2.13 23.1.el7 x86_64
+1463261443 bacula-common 5.2.13 23.1.el7 x86_64
+1463261443 bacula-libs-sql 5.2.13 23.1.el7 x86_64
+1463261443 mt-st 1.1 14.el7 x86_64
+1463261443 perl-Sys-CPU 0.54 4.el7 x86_64
+1463261443 postgresql-libs 9.2.15 1.el7_2 x86_64
+1463261444 perl-Date-Manip 6.41 2.el7 noarch
+1463261444 perl-Sys-MemInfo 0.91 7.el7 x86_64
+1463261445 bacula-client 5.2.13 23.1.el7 x86_64
+1463261445 bacula-director 5.2.13 23.1.el7 x86_64
+1463261445 bacula-storage 5.2.13 23.1.el7 x86_64
+1463261445 logwatch 7.4.0 28.20130522svn140.el7 noarch
+1463261446 bacula-console 5.2.13 23.1.el7 x86_64
+1463281623 percona-xtrabackup-24 2.4.2 1.el7 x86_64
