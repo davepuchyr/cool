@@ -4,6 +4,7 @@
   <description>For use in public areas. You do not trust the other computers on networks to not harm your computer. Only selected incoming connections are accepted.</description>
   <interface name="em1"/>
   <service name="dhcpv6-client"/>
+  <service name="imaps"/>
   <service name="ssh"/>
   <port protocol="tcp" port="4000"/>
   <port protocol="udp" port="4000"/>
