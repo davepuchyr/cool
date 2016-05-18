@@ -15,3 +15,4 @@ mysql    system_u:object_r:mysqld_db_t:s0
 ./private_key.pem    system_u:object_r:mysqld_db_t:s0
 ./public_key.pem    system_u:object_r:mysqld_db_t:s0
 /home/mysql(/.*)?    system_u:object_r:mysqld_db_t:s0
+/home/admin/panda/www/executable(/.*)?    system_u:object_r:httpd_sys_script_exec_t:s0
