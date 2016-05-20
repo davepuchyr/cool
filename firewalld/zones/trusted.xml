@@ -6,9 +6,11 @@
   <source address="95.211.131.137/32"/>
   <service name="vnc-server"/>
   <service name="mysql"/>
-  <port protocol="tcp" port="19150"/>
-  <port protocol="tcp" port="4002"/>
   <port protocol="tcp" port="4001"/>
+  <port protocol="tcp" port="11211"/>
+  <port protocol="udp" port="11211"/>
+  <port protocol="tcp" port="4002"/>
   <port protocol="tcp" port="4003"/>
+  <port protocol="tcp" port="19150"/>
   <port protocol="tcp" port="3129"/>
 </zone>
