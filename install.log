@@ -1559,3 +1559,10 @@
 1464792519 ntpdate 4.2.6p5 22.el7.centos.2 x86_64
 1464792521 percona-xtrabackup-24 2.4.3 1.el7 x86_64
 1464792528 google-chrome-stable 51.0.2704.63 1 x86_64
+1464792569 centos-release-scl 2 2.el7.centos noarch
+1464792569 centos-release-scl-rh 2 2.el7.centos noarch
+1464792591 gpg-pubkey f2ee9d55 560cfc0a (none)
+1464792603 devtoolset-3-runtime 3.1 12.el7 x86_64
+1464792604 devtoolset-3-libstdc++-devel 4.9.2 6.el7 x86_64
+1464792607 devtoolset-3-gcc 4.9.2 6.el7 x86_64
+1464792608 devtoolset-3-gcc-c++ 4.9.2 6.el7 x86_64
