@@ -1162,8 +1162,6 @@
 1461876388 cronie 1.4.11 14.el7_2.1 x86_64
 1461876388 cronie-anacron 1.4.11 14.el7_2.1 x86_64
 1461876388 grub2-tools 2.02 0.34.el7.centos x86_64
-1461876388 ntp 4.2.6p5 22.el7.centos.1 x86_64
-1461876388 ntpdate 4.2.6p5 22.el7.centos.1 x86_64
 1461876389 selinux-policy 3.13.1 60.el7_2.3 noarch
 1461876402 bind-libs 9.9.4 29.el7_2.3 x86_64
 1461876402 bind-utils 9.9.4 29.el7_2.3 x86_64
@@ -1469,7 +1467,6 @@
 1463103833 openssl-libs 1.0.1e 51.el7_2.5 x86_64
 1463103834 openssl 1.0.1e 51.el7_2.5 x86_64
 1463103834 openssl-devel 1.0.1e 51.el7_2.5 x86_64
-1463103841 google-chrome-stable 50.0.2661.102 1 x86_64
 1463104196 apr 1.4.8 3.el7 x86_64
 1463104196 apr-util 1.5.2 6.el7 x86_64
 1463104199 mod_perl 2.0.8 10.20140624svn1602105.el7 x86_64
@@ -1538,7 +1535,6 @@
 1463261445 bacula-storage 5.2.13 23.1.el7 x86_64
 1463261445 logwatch 7.4.0 28.20130522svn140.el7 noarch
 1463261446 bacula-console 5.2.13 23.1.el7 x86_64
-1463281623 percona-xtrabackup-24 2.4.2 1.el7 x86_64
 1463320537 dovecot 2.2.10 5.el7 x86_64
 1463320559 sendmail-cf 8.14.7 4.el7 noarch
 1463324068 bwidget 1.9.0 6.el7 noarch
@@ -1559,3 +1555,7 @@
 1463879987 perl-Digest-SHA1 2.13 9.el7 x86_64
 1463880035 perl-Apache-DBI 1.12 1.el7.centos noarch
 1463951125 perl-Cache-Memcached-Fast 0.23 1.el7.centos x86_64
+1464792519 ntp 4.2.6p5 22.el7.centos.2 x86_64
+1464792519 ntpdate 4.2.6p5 22.el7.centos.2 x86_64
+1464792521 percona-xtrabackup-24 2.4.3 1.el7 x86_64
+1464792528 google-chrome-stable 51.0.2704.63 1 x86_64
