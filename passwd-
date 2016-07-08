@@ -53,3 +53,5 @@ apache:x:48:48:Apache:/usr/share/httpd:/sbin/nologin
 bacula:x:133:133:Bacula Backup System:/var/spool/bacula:/sbin/nologin
 dovecot:x:97:97:Dovecot IMAP server:/usr/libexec/dovecot:/sbin/nologin
 dovenull:x:497:497:Dovecot's unauthorized user:/usr/libexec/dovecot:/sbin/nologin
+memcached:x:496:496:Memcached daemon:/run/memcached:/sbin/nologin
+gitlab-www:x:495:495::/var/opt/gitlab/nginx:/bin/false
