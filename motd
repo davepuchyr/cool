@@ -1,0 +1,6 @@
+Do
+
+scl enable devtoolset-3 bash
+
+before building panda!
+
