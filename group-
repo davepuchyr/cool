@@ -81,5 +81,7 @@ bacula:x:133:
 dovecot:x:97:
 dovenull:x:497:
 memcached:x:496:
-gitlab-www:x:495:
+gitlab-www:x:495:apache
 git:x:494:
+gitlab-redis:x:493:
+gitlab-psql:x:492:

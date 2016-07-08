@@ -8,7 +8,7 @@
 ## Url on which GitLab will be reachable.
 ## For more details on configuring external_url see:
 ## https://gitlab.com/gitlab-org/omnibus-gitlab/blob/master/doc/settings/configuration.md#configuring-the-external-url-for-gitlab
-external_url 'http://cool'
+external_url 'http://gitlab.uupfa.com'
 
 
 ## Note: configuration settings below are optional.
@@ -51,7 +51,7 @@ external_url 'http://cool'
 # gitlab_rails['ldap_sync_worker_cron'] = "30 1 * * *"
 # gitlab_rails['geo_bulk_notify_worker_cron'] = "*/10 * * * * *"
 # gitlab_rails['webhook_timeout'] = 10
-# gitlab_rails['trusted_proxies'] = []
+gitlab_rails['trusted_proxies'] = ['192.188.183.71']
 
 ## Reply by email
 # Allow users to comment on issues and merge requests by replying to notification emails.
@@ -360,9 +360,9 @@ external_url 'http://cool'
 
 # gitlab_workhorse['enable'] = true
 # gitlab_workhorse['ha'] = false
-# gitlab_workhorse['listen_network'] = "unix"
+gitlab_workhorse['listen_network'] = "tcp"
 # gitlab_workhorse['listen_umask'] = 000
-# gitlab_workhorse['listen_addr'] = "/var/opt/gitlab/gitlab-workhorse/socket"
+gitlab_workhorse['listen_addr'] = "127.0.0.1:8181"
 # gitlab_workhorse['auth_backend'] = "http://localhost:8080"
 # gitlab_workhorse['auth_socket'] = "''" # the empty string is the default in gitlab-workhorse option parser
 # gitlab_workhorse['pprof_listen_addr'] = "''" # put an empty string on the command line
@@ -517,7 +517,7 @@ external_url 'http://cool'
 ## see: https://gitlab.com/gitlab-org/omnibus-gitlab/tree/master/doc/settings/nginx.md#using-a-non-bundled-web-server
 ## When bundled nginx is disabled we need to add the external webserver user to the GitLab webserver group.
 
-# web_server['external_users'] = []
+web_server['external_users'] = ['apache']
 # web_server['username'] = 'gitlab-www'
 # web_server['group'] = 'gitlab-www'
 # web_server['uid'] = nil
@@ -531,7 +531,7 @@ external_url 'http://cool'
 ################
 ## see: https://gitlab.com/gitlab-org/omnibus-gitlab/tree/master/doc/settings/nginx.md
 
-# nginx['enable'] = true
+nginx['enable'] = false
 # nginx['client_max_body_size'] = '250m'
 # nginx['redirect_http_to_https'] = false
 # nginx['redirect_http_to_https_port'] = 80

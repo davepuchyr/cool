@@ -3,3 +3,4 @@
 
 portcon tcp 2222 system_u:object_r:ssh_port_t:s0
 portcon tcp 3129 system_u:object_r:http_cache_port_t:s0
+portcon tcp 8181 system_u:object_r:http_port_t:s0
