@@ -174,15 +174,16 @@ gitlab_rails['trusted_proxies'] = ['192.188.183.71']
 # gitlab_rails['omniauth_auto_link_ldap_user'] = false
 # gitlab_rails['omniauth_auto_link_saml_user'] = false
 # gitlab_rails['omniauth_external_providers'] = ['twitter', 'google_oauth2']
-# gitlab_rails['omniauth_providers'] = [
-#   {
-#     "name" => "google_oauth2",
-#     "app_id" => "YOUR APP ID",
-#     "app_secret" => "YOUR APP SECRET",
-#     "args" => { "access_type" => "offline", "approval_prompt" => "" }
-#   }
-# ]
-#
+gitlab_rails['omniauth_providers'] = [
+   {
+     "name" => "github",
+     "app_id" => "d29e6462071f2f8cecf4",
+     "app_secret" => "1fb9fafdfe82c1e875fa4fc2d19bd74581694bde",
+     "url" => "https://github.com/",
+     "args" => { "scope" => "user:email" }
+   }
+]
+
 # If you setup bitbucket importer under omniauth providers you will need to add the keys
 # which will allow connection between bitbucket and gitlab.
 # For details see http://doc.gitlab.com/ce/integration/bitbucket.html
