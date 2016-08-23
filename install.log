@@ -1468,16 +1468,11 @@
 1467932442 hplip-libs 3.13.7 6.el7_2.1 x86_64
 1467932443 selinux-policy 3.13.1 60.el7_2.7 noarch
 1467932446 tzdata-java 2016f 1.el7 noarch
-1467932452 Percona-Server-shared-57 5.7.13 6.1.el7 x86_64
-1467932452 Percona-Server-shared-compat-57 5.7.13 6.1.el7 x86_64
 1467932454 libxml2 2.9.1 6.el7_2.3 x86_64
 1467932454 libxml2-python 2.9.1 6.el7_2.3 x86_64
-1467932454 Percona-Server-client-57 5.7.13 6.1.el7 x86_64
 1467932454 setroubleshoot-plugins 3.0.59 2.el7_2 noarch
 1467932455 setroubleshoot 3.2.24 4.el7_2 x86_64
 1467932455 setroubleshoot-server 3.2.24 4.el7_2 x86_64
-1467932463 Percona-Server-devel-57 5.7.13 6.1.el7 x86_64
-1467932463 Percona-Server-server-57 5.7.13 6.1.el7 x86_64
 1467932464 selinux-policy-targeted 3.13.1 60.el7_2.7 noarch
 1467932468 libsane-hpaio 3.13.7 6.el7_2.1 x86_64
 1467932469 device-mapper-multipath 0.4.9 85.el7_2.5 x86_64
@@ -1529,7 +1524,6 @@
 1467985983 kate-part 4.10.5 3.el7 x86_64
 1467985983 kdesdk-kompare 4.10.5 6.el7 x86_64
 1467985983 kdesdk-kompare-libs 4.10.5 6.el7 x86_64
-1468012058 gitlab-ce 8.9.5 ce.0.el7 x86_64
 1471741856 bash 4.2.46 20.el7_2 x86_64
 1471741860 glibc-common 2.17 106.el7_2.8 x86_64
 1471741863 dbus-libs 1.6.12 14.el7_2 x86_64
@@ -1603,3 +1597,9 @@
 1471742031 libtiff 4.0.3 25.el7_2 x86_64
 1471742031 percona-xtrabackup-24 2.4.4 1.el7 x86_64
 1471742031 v8 3.14.5.10 25.el7 x86_64
+1471961249 Percona-Server-shared-compat-57 5.7.14 7.1.el7 x86_64
+1471961250 Percona-Server-shared-57 5.7.14 7.1.el7 x86_64
+1471961251 Percona-Server-client-57 5.7.14 7.1.el7 x86_64
+1471961259 Percona-Server-server-57 5.7.14 7.1.el7 x86_64
+1471961260 Percona-Server-devel-57 5.7.14 7.1.el7 x86_64
+1471961307 gitlab-ce 8.11.0 ce.1.el7 x86_64
