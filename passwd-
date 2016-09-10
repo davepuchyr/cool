@@ -42,7 +42,6 @@ avahi:x:70:70:Avahi mDNS/DNS-SD Stack:/var/run/avahi-daemon:/sbin/nologin
 postfix:x:89:89::/var/spool/postfix:/sbin/nologin
 tcpdump:x:72:72::/:/sbin/nologin
 admin:x:1000:1000:admin:/home/admin:/bin/bash
-nx:x:987:1001::/var/NX/nx:/etc/NX/nxserver
 mailnull:x:47:47::/var/spool/mqueue:/sbin/nologin
 smmsp:x:51:51::/var/spool/mqueue:/sbin/nologin
 dave:x:500:500:Dave Puchyr:/home/dave:/bin/bash
@@ -58,3 +57,4 @@ gitlab-www:x:495:495::/var/opt/gitlab/nginx:/bin/false
 git:x:494:494::/var/opt/gitlab:/bin/sh
 gitlab-redis:x:493:493::/var/opt/gitlab/redis:/bin/nologin
 gitlab-psql:x:492:492::/var/opt/gitlab/postgresql:/bin/sh
+uupfa:x:1001:1001:UUP Financial Analytics:/home/uupfa:/bin/bash

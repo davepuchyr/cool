@@ -69,7 +69,6 @@ stapusr:x:156:
 stapsys:x:157:
 stapdev:x:158:
 admin:x:1000:admin
-nx:x:1001:
 mailnull:x:47:
 smmsp:x:51:
 dave:x:500:
