@@ -1331,7 +1331,6 @@
 1461898996 tk 8.5.13 6.el7 x86_64
 1461898996 x11vnc 0.9.13 11.el7 x86_64
 1461898997 dconf-editor 0.22.0 2.el7 x86_64
-1461898997 git-cola 2.3 4.el7 noarch
 1461898997 gkrellm 2.3.5 20.el7 x86_64
 1461898997 tigervnc 1.3.1 4.el7_2 x86_64
 1461898997 tigervnc-server 1.3.1 4.el7_2 x86_64
@@ -1553,7 +1552,6 @@
 1471741871 util-linux 2.23.2 26.el7_2.3 x86_64
 1471741872 open-vm-tools 9.10.2 5.el7_2 x86_64
 1471741872 python-sss-murmur 1.13.0 40.el7_2.12 x86_64
-1471741873 ipa-python 4.2.0 15.0.1.el7.centos.18 x86_64
 1471741878 java-1.7.0-openjdk 1.7.0.111 2.6.7.2.el7_2 x86_64
 1471741878 java-1.7.0-openjdk-headless 1.7.0.111 2.6.7.2.el7_2 x86_64
 1471741883 java-1.8.0-openjdk-headless 1.8.0.101 3.b13.el7_2 x86_64
@@ -1573,7 +1571,6 @@
 1471741886 sssd-proxy 1.13.0 40.el7_2.12 x86_64
 1471741887 glibc-devel 2.17 106.el7_2.8 x86_64
 1471741887 glibc-headers 2.17 106.el7_2.8 x86_64
-1471741887 ipa-client 4.2.0 15.0.1.el7.centos.18 x86_64
 1471741887 kernel-headers 3.10.0 327.28.3.el7 x86_64
 1471741887 mod_ssl 2.4.6 40.el7.centos.4 x86_64
 1471741888 java-1.8.0-openjdk 1.8.0.101 3.b13.el7_2 x86_64
@@ -1588,7 +1585,6 @@
 1471742012 systemd-python 219 19.el7_2.12 x86_64
 1471742013 gssproxy 0.4.1 8.el7_2 x86_64
 1471742013 python-perf 3.10.0 327.28.3.el7 x86_64
-1471742020 google-chrome-stable 52.0.2743.116 1 x86_64
 1471742029 device-mapper-persistent-data 0.6.2 1.el7_2 x86_64
 1471742029 firefox 45.3.0 1.el7.centos x86_64
 1471742029 libgovirt 0.3.3 1.el7_2.4 x86_64
@@ -1602,4 +1598,15 @@
 1471961251 Percona-Server-client-57 5.7.14 7.1.el7 x86_64
 1471961259 Percona-Server-server-57 5.7.14 7.1.el7 x86_64
 1471961260 Percona-Server-devel-57 5.7.14 7.1.el7 x86_64
-1471961307 gitlab-ce 8.11.0 ce.1.el7 x86_64
+1473377956 PyQt4-webkit 4.10.1 1.el7 x86_64
+1473377956 qtwebkit 2.3.4 6.el7 x86_64
+1473377957 ipa-client 4.2.0 15.0.1.el7.centos.19 x86_64
+1473377957 ipa-python 4.2.0 15.0.1.el7.centos.19 x86_64
+1473377958 git-cola 2.7 1.el7 noarch
+1473377966 google-chrome-stable 53.0.2785.101 1 x86_64
+1473378017 gitlab-ce 8.11.5 ce.0.el7 x86_64
+1477220603 ipset-libs 6.19 4.el7 x86_64
+1477220604 fail2ban-firewalld 0.9.5 3.el7 noarch
+1477220604 fail2ban-server 0.9.5 3.el7 noarch
+1477220604 fail2ban-systemd 0.9.5 3.el7 noarch
+1477220604 ipset 6.19 4.el7 x86_64
