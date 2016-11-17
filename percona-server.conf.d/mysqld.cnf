@@ -1,6 +1,8 @@
 # Percona Server template configuration
 
 [mysqld]
+pid-file=/var/run/mysqld/mysqld.pid
+log-error=/var/log/mysqld.log
 #
 # Remove leading # and set to the amount of RAM for the most important data
 # cache in MySQL. Start at 70% of total RAM for dedicated server, else 10%.
@@ -35,22 +37,14 @@ init-connect='SET NAMES utf8'
 validate-password=off
 # http://www.techoism.com/how-to-configure-master-slave-mysql-replication-on-centosrhel/
 # workaround to GRANT error in the instructions from techoism: http://forums.mysql.com/read.php?26,46662,46841#msg-46841
-log-bin=mysql-bin
-binlog-do-db=panda
 server-id=1
+log_bin=mysql-bin
+log_error=mysql-bin.err
+binlog_do_db=panda
 # naked server-id=2
 # ideapad server-id=3
 # ocho/bcn server-id=4
 innodb_flush_log_at_trx_commit=1
 sync_binlog=1
-# ~dmjp
-
-[mysqld_safe]
-log-error=/var/log/mysqld.log
-pid-file=/var/run/mysqld/mysqld.pid
-
-# dmjp
-[mysql]
-default-character-set=utf8
 # ~dmjp
 

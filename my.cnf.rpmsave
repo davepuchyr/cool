@@ -1,0 +1,58 @@
+# Percona Server template configuration
+
+[mysqld]
+pid-file=/var/run/mysqld/mysqld.pid
+log-error=/var/log/mysqld.log
+#
+# Remove leading # and set to the amount of RAM for the most important data
+# cache in MySQL. Start at 70% of total RAM for dedicated server, else 10%.
+# innodb_buffer_pool_size = 128M
+#
+# Remove leading # to turn on a very important data integrity option: logging
+# changes to the binary log between backups.
+# log_bin
+#
+# Remove leading # to set options mainly useful for reporting servers.
+# The server defaults are faster for transactions and fast SELECTs.
+# Adjust sizes as needed, experiment to find the optimal values.
+# join_buffer_size = 128M
+# sort_buffer_size = 2M
+# read_rnd_buffer_size = 2M
+# dmjp datadir=/var/lib/mysql
+datadir=/home/mysql
+socket=/var/lib/mysql/mysql.sock
+
+# Disabling symbolic-links is recommended to prevent assorted security risks
+# dmjp symbolic-links=0
+symbolic-links=1
+
+# Recommended in standard MySQL setup
+sql_mode=NO_ENGINE_SUBSTITUTION,STRICT_TRANS_TABLES
+
+# dmjp
+character-set-server=utf8
+collation-server=utf8_unicode_ci
+init-connect='SET NAMES utf8'
+# https://github.com/rails/rails/issues/21107
+validate-password=off
+# http://www.techoism.com/how-to-configure-master-slave-mysql-replication-on-centosrhel/
+# workaround to GRANT error in the instructions from techoism: http://forums.mysql.com/read.php?26,46662,46841#msg-46841
+log-bin=mysql-bin
+binlog-do-db=panda
+server-id=1
+# naked server-id=2
+# ideapad server-id=3
+# ocho/bcn server-id=4
+innodb_flush_log_at_trx_commit=1
+sync_binlog=1
+# ~dmjp
+
+[mysqld_safe]
+log-error=/var/log/mysqld.log
+pid-file=/var/run/mysqld/mysqld.pid
+
+# dmjp
+[mysql]
+default-character-set=utf8
+# ~dmjp
+
